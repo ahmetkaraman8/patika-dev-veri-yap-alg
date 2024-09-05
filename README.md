@@ -50,6 +50,7 @@
 
 -Step-4: [3,5,7,8,*2*,9,4,15,6] => 2 elemanı seçilir. Kendisinden küçük bir elemana denk gelinceye kadar sola kaydırılır. => [3,5,7,2,8,9,4,15,6]
 
+***************************************************************
 
 # Merge Sort Ödevi
 [16,21,11,8,12,22] -> Merge Sort
@@ -69,5 +70,24 @@
 
 [8,11,12,16,21,22]
 
+***************************************************************
+
 ### Big-O gösterimini yazınız.
 Diziyi parçalara bölmek, logn işlem gerektirir. Parçaları birleştirme esnasında bütün elemanların karşılaştırılması ise n işlem gerektirir. Bu yüzden Merge Sort algoritmasının Big-O gösterimi = O(nlogn)
+
+***************************************************************
+
+# Binary Search Tree Ödevi
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+        7
+       / \
+      5   8
+     / \    \
+    1   6    9
+   / \
+  0   3
+     / \
+    2   4
