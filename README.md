@@ -1,8 +1,8 @@
-# patika-dev-veri-yap-alg
+# Insertion Sort Ödevi
 
 [22,27,16,2,18,6] -> Insertion Sort
 
-1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+## Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 -Step-1: [22,*27*,16,2,18,6] => 22 elemanı bir sıralama işlemine tabi tutulmaz. Sıralama işlemi, ikinci eleman olan 27 ile başlar. 27, 22'den büyük olduğu için yer değiştirmez.
 
@@ -16,7 +16,7 @@
 
 ***************************************************************
 
-2) Big-O gösterimini yazınız.
+## Big-O gösterimini yazınız.
    
 -Step-1'de, bütün elemanları gözden geçirip en küçüğünü buluyoruz. Bu yüzden Step-1'de yapılan işlem sayısı = n.
 
@@ -28,7 +28,7 @@
 
 ***************************************************************
 
-3) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+## Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 
 -Average case: Aradığımız sayının ortada olması
   
@@ -40,7 +40,7 @@
 
 ***************************************************************
 
-4) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+## [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
    
 -Step-1: [7,*3*,5,8,2,9,4,15,6] => 3 elemanı seçilir. Kendisinden küçük bir elemana denk gelinceye kadar sola kaydırılır. => [3,7,5,8,2,9,4,15,6]
 
@@ -49,3 +49,5 @@
 -Step-3: [3,5,7,*8*,2,9,4,15,6] => 8 elemanı seçilir. Kendisinden küçük bir elemana denk gelinceye kadar sola kaydırılır. => [3,5,7,8,2,9,4,15,6]
 
 -Step-4: [3,5,7,8,*2*,9,4,15,6] => 2 elemanı seçilir. Kendisinden küçük bir elemana denk gelinceye kadar sola kaydırılır. => [3,5,7,2,8,9,4,15,6]
+
+
