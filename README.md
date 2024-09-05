@@ -14,6 +14,8 @@
 
 -Step-5: [2,16,18,22,27,*6*] => 6 elemanı seçilir. Kendisinden küçük bir elemana denk gelinceye kadar sola kaydırılır. => [2,6,16,18,22,27]
 
+***************************************************************
+
 2) Big-O gösterimini yazınız.
    
 -Step-1'de, bütün elemanları gözden geçirip en küçüğünü buluyoruz. Bu yüzden Step-1'de yapılan işlem sayısı = n.
@@ -23,7 +25,9 @@
 -Step-3'de, 2 ve 6 hariç tüm elemanları gözden geçirip en küçüğünü buluyoruz. Bu yüzden Step-3'de yapılan işlem sayısı = n-2.
 
 -Bu şekilde devam ettiği zaman toplamda yapılan işlem sayısı = O(n^2)
-   
+
+***************************************************************
+
 3) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 
 -Average case: Aradığımız sayının ortada olması
@@ -33,6 +37,8 @@
 -Best case: Aradığımız sayının dizinin en başında olması.
 
 => Aradığımız sayı ortalarda olduğu için Average Case.
+
+***************************************************************
 
 4) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
    
